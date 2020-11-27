@@ -1,5 +1,3 @@
-
-from google.oauth2 import service_account
 import os
 from ingest_api_data import main
 import create_bigquery_db
@@ -13,6 +11,7 @@ os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "./tesla-iot-challenge-credential
 # If dataset or table already exists, creation process will automatically skip
 create_bigquery_db.create_bigquery_table()
 
+# Note: all the 
 # Invoke web API, perform ETL, and then push data into Pub/Sub
 main.execute(None)
 
