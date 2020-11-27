@@ -14,8 +14,8 @@ For the core output products, we have:
   * SITE_SM_siteInstPower: how much power is being imported (positive) from the grid or exported (negative) to the grid
   * SITE_SM_solarInstPower: how much power is being produced by solar and **should always be positive**
 * A Data Studio Dashboard (https://datastudio.google.com/reporting/9efe9c81-4a24-4224-8811-5d82225038d0) that tracks:
-  * number of devices that are "up" determined by real-time API response (1-min time window). This can help us determine how "reliable" is API, or if there is any issue on the device data transportation
-  * solar Production Condition by Device in the Past 1 Hour (1-hour Window). This will provide us a real-time insight on which device has anomalies on solar power production and needs immediate attention
+  * number of devices that are "up" determined by real-time API response (1-min time window). This widget helps us understand the latest condition of a device's API, or if there is any potential issue on a certain device, in a real-time way
+  * solar Production Condition by Device in the Past 1 Hour (1-hour Window). This widget shows us which device has anomalies on solar power production and needs immediate attention, in a near real-time way (we can shorten the time window to make it more real-time, but that will increase my bill a lot so I just built the 1-hour version)
 * A Colab Notebook (https://colab.research.google.com/drive/1f3iaQZ3KgBTxf7rzEnFENCLI_I68Zukl?usp=sharing) that provides a proof-of-concept solution to identify solar power production anomalies via time-series forecasting 
 
 
