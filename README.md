@@ -20,7 +20,7 @@ For the core output products, we have:
   * number of devices that are "up" determined by real-time API response (1-min time window). This widget helps us understand the latest condition of a device's API, or if there is any potential issue on a certain device, in a real-time way
   * solar Production Condition by Device in the Past 1 Hour (1-hour Window). This widget shows us which device has anomalies on solar power production and needs immediate attention, in a near real-time way (we can shorten the time window to make it more real-time, but that will increase my bill a lot so I just built the 1-hour version)
   
-![Image](https://github.com/tomchen29/tesla_data_challenge_gcp_severless/blob/main/images/Real-time%20Dashboard.png)
+![Image](https://github.com/tomchen29/tesla_data_challenge_gcp_severless/blob/main/images/Real_time_dashboard_new.png)
   
 * A Colab Notebook (https://colab.research.google.com/drive/1f3iaQZ3KgBTxf7rzEnFENCLI_I68Zukl?usp=sharing) that provides a proof-of-concept solution to identify solar power production anomalies via time-series forecasting 
 
